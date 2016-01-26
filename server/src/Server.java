@@ -176,7 +176,23 @@ public class Server {
 	  	System.out.println("Collection Name: " + colName);
 	  	System.out.println("Monitor Collection Name: " + monitorName);
 	  	System.out.printf("Number of documents in collection: %d%n", numObjs);
+	
+	  	while (true) {
+	  		runMainLoop(collection, monitorCol, config);
+	  	}
 	}
 	
-
+	private static void runMainLoop(MongoCollection<Document> col
+			, MongoCollection<Document> monitor, JSONObject config) {
+		
+	}
 }
+
+
+
+
+
+
+
+
+
