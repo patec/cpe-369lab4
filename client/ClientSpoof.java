@@ -22,7 +22,7 @@ import com.mongodb.client.MongoDatabase;
 import org.json.*;
 import org.bson.Document;
 
-public class Client {
+public class ClientSpoof {
    private static ArrayList<String> dictionary = new ArrayList<String>();
    
    public static void main(String[] args) throws JSONException, InterruptedException, FileNotFoundException {
